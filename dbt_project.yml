@@ -31,3 +31,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   medallion_dbt_spark:
+    marts:
+      product:
+        materialized: table
+      customer:
+        materialized: table
+      sales:
+        materialized: table
+

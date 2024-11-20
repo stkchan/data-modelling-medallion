@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: dim_products
+  - name: dim_product
     columns:
       - name: product_sk
         description: The surrogate key of the product
